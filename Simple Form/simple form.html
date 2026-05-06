@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Forms 101</title>
+    </head>
+    <body>
+        <section id="simple-form">
+            </section>
+        <h2>Simple Form</h2>
+
+        <form>
+            <!--input text -->
+            <input type="text" name="username" placeholder="Username">
+            <!--textarea -->
+            <textarea name="opinion" placeholder="Your opinion about HTML forms"></textarea>
+            <!--submit input-->
+            <input type="submit" value="Submit form">
+
+            <div class="form-group">
+                <label id="lname"> Last Name</label>
+                <input type="text" name="lname" id="lname">
+            </div>
+            <div class="form-group">
+                <label id="email"> Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label id="National-id"> National Id</label>
+                <input type="number" name="national_id" id="National-id">
+            </div>
+            <div class="form-group">
+                <label id="gender"> Gender</label>
+                <input type="radio" value="0">Male
+                <br>
+                <input type="radio" value="1">Female
+            </div>
+            
+                <div class="form-group">
+                <label id="participant-type">Participant Type</label>
+                <input type="radio" name="participant-type" value="spectator">Spectator
+                <br>
+                <input type="radio" name="participant-type" value="student">Student
+            </div>
+        </form>
+        </section>
+    </body></html>
